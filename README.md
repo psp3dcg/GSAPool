@@ -16,14 +16,14 @@ PyTorch implementation of [Structure-Feature based Graph Self-adaptive Pooling](
 ```python control_shell.py```
 
 
-## Cite
+## Reference
 ```
-@InProceedings{GSAPool2020,
-  title = 	 {Structure-Feature based Graph Self-adaptive Pooling},
-  author = 	 {Liang Zhang and Xudong Wang and Hongsheng Li and Guangming Zhu and Peiyi Shen and Ping Li and Xiaoyuan Lu and Syed Afaq Ali Shah and  Mohammed Bennamoun},
-  booktitle = {Proceedings of the Web Conference 2020},
-  year = 	 {2020},
-  month = 	 {20-25 April}
-}
-```
+@Article{GSAPool2020,
+	author        = "Liang Zhang and Xudong Wang and Hongsheng Li and Guangming Zhu and Peiyi Shen and Ping Li and Xiaoyuan Lu and Syed Afaq Ali Shah and  Mohammed Bennamoun.",
+	title         = "Structure-Feature based Graph Self-adaptive Pooling.",
+	journal       = "In Proceedings of The Web Conference 2020",
+	month         ="April 20-24",
+	year          = "2020",
+	doi           = "10.1145/3366423.3380083",
+}```
 
