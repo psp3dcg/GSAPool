@@ -28,10 +28,10 @@ parser.add_argument('--epochs', type=int, default=100000,#default = 100000
 parser.add_argument('--patience', type=int, default=50,
                     help='patience for earlystopping')
 parser.add_argument('--pooling_layer_type', type=str, default='GCNConv',
-                    help='GCNConv')
-parser.add_argument('--feature_fusion_type', type=str, default='GATConv',
                     help='GCNConv/SAGEConv/ChebConv/GATConv/GraphConv')
-parser.add_argument('--save_path', type=str, default='/home/baoke/workspace_wxd/GSAPool',
+parser.add_argument('--feature_fusion_type', type=str, default='GATConv',
+                    help='GATConv')
+parser.add_argument('--save_path', type=str, default='/home/GSAPool',
                     help='path to save result')
 parser.add_argument('--training_times', type=int, default=20,
                     help='')
