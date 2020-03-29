@@ -70,6 +70,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.w
 
 #training steps
 patience = 0
+min_loss = args.min_loss
 for epoch in range(args.epochs):
     model.train()
     for i, data in enumerate(train_loader):
@@ -83,7 +84,7 @@ for epoch in range(args.epochs):
     val_acc,val_loss = test(model,val_loader)
     print("Validation loss:{}\taccuracy:{}".format(val_loss,val_acc))
     print("Epoch{}".format(epoch))
-    if val_loss < args.min_loss:
+    if val_loss < min_loss:
         torch.save(model.state_dict(),'latest.pth')
         print("Model saved at epoch{}".format(epoch))
         min_loss = val_loss
