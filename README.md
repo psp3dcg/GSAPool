@@ -8,13 +8,9 @@ PyTorch implementation of [Structure-Feature based Graph Self-adaptive Pooling](
 
 
 ## Requirements
-  * anaconda
-  * python 3.6
-  * pytorch 1.1.0
-  * torch_scatter 1.4.0
-  * torch_sparse 0.4.3
-  * torch_cluster 1.4.5
-  * torch_geometric 1.3.2
+  * python 3.6.2
+  * For the other packages, please refer to the requirements.txt
+
 
 ## Usage
 
